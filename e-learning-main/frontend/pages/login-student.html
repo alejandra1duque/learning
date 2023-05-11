@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/login-student.css" />
+    <title>Login-student</title>
+  </head>
+
+  <body>
+    <div class="container-index">
+      <div class="contenedor-principal">
+        <div class="student">
+          <h1 class="title-student">WELCOME</h1>
+          <form action="" class="form-student">
+            <label for="user">Username</label>
+            <input class="input-form" type="text" name="user" id="user" />
+            <label for="password">Password</label>
+            <input class="input-form" type="password" name="password" id="password" />
+            <div class="checkbox">
+              <div>
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember me</label>
+              </div>
+              <a href="#">forgot password</a>
+            </div>
+          </form>
+
+          <img class="img-student" src="../assets/img/student.png" alt="" />
+          <!-- <button class="button-student" name="redirect" onClick="redirect()">Continue</button> -->
+          <a class="button-student" href="../pages/account.html">Login</a>
+          <p>Don´t have an account? <a href="./register-student.html">Sing up</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/funciones.js"></script>
+  </body>
+</html>
